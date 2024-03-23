@@ -29,11 +29,11 @@ To run the project, follow these steps:
 ## Screenshots/GIFs
 
 <div align="center">
-<img src="screenshots/HomeScreen.png" alt="Description of image" width="300" style="margin-right: 40px">   <img src="screenshots/SalonDetail.png" alt="Description of image" width="300"> <img src="screenshots/Confirmation.png" alt="Description of image" width="300" style="margin-right: 40px">
+<img src="screenshots/HomeScreen.png" alt="Description of image" width="300" style="margin-right: 40px"><img src="screenshots/SalonDetail.png" alt="Description of image" width="300">
 </div>
  
 <div align="center">
-<img src="screenshots/History.png" alt="Description of image" width="300"> <img src="screenshots/StyleScreen.png" alt="Description of image" width="300" style="margin-right: 40px">
+ <img src="screenshots/Confirmation.png" alt="Description of image" width="300" style="margin-right: 40px"><img src="screenshots/History.png" alt="Description of image" width="300"> <img src="screenshots/StyleScreen.png" alt="Description of image" width="300" style="margin-right: 40px">
 </div>
 
 
