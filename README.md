@@ -12,6 +12,14 @@ Welcome to the Hair Salon Application! This Flutter project empowers users to di
 - **Notifications**: Receive notifications for appointment reminders and other updates.
 - **Virtual Hairstyle Try-On**: Utilize machine learning models hosted on the Replicate platform to try out different hairstyles and hair colors by uploading an image and clicking the predict button.
 
+## Technologies Used
+
+- **[Flutter](https://flutter.dev/)**: Used for building the mobile application.
+- **[Dart](https://dart.dev/)**: Programming language used for developing the Flutter app.
+- **[Yelp API](https://www.yelp.com/developers)**: Integrated for retrieving salon data.
+- **[Replicate Platform](https://replicate.ai/)**: Utilized for hosting and integrating machine learning model (I used `hair_clip` model).
+- **[Firebase](https://firebase.google.com/)**: Used for storing and retrieving users data as well as for authentication.
+
 ## Installation
 
 To run the project, follow these steps:
