@@ -5,12 +5,11 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:hairsalon_application/Screens/loading_screen.dart';
 import 'package:hairsalon_application/Screens/prediction_screen.dart';
-import 'package:hairsalon_application/Widgets/DropDown.dart';
 import 'package:hairsalon_application/Widgets/RoundedButton.dart';
 import 'package:hairsalon_application/Widgets/TextInput.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:image/image.dart' as img;
 import 'package:http/http.dart' as http;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class StyleScreen extends StatefulWidget {
   const StyleScreen({Key? key}) : super(key: key);
@@ -268,7 +267,7 @@ class _StyleScreenState extends State<StyleScreen> {
       url,
       headers: <String, String>{
         'Content-Type': 'application/json',
-        'Authorization': 'Token r8_bWlhge8sVFGcMsNqCwsbgwM18yOb06V3Q0fLX',
+        'Authorization': 'Token ${dotenv.env['REPLICATE_API']}',
       },
       body: requestBodyJson,
     );

@@ -12,6 +12,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:hairsalon_application/Widgets/AllSalonCard.dart';
 import 'package:hairsalon_application/Widgets/NearbySalonCard.dart';
 import 'package:http/http.dart' as http;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -37,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
       "Content-Type": "application/json",
       "Accept": "application/json",
       "Authorization":
-          "Bearer PLuiYmQESOSSiAxEWbmMBoGj6GC3t8nQyHYXYUZI8-J4bX6CpPOh6LayLg-s7zlO5A7eeEOVPr4UM1w6cK5gTJdAR-_JbN1Wk2ZfMxMeivJ9T8uRBheGLC-9ruZRZHYx",
+          'Bearer  ${dotenv.env['YELP_API']}',
     };
 
     String location = "CA";
@@ -69,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
       "Content-Type": "application/json",
       "Accept": "application/json",
       "Authorization":
-          "Bearer PLuiYmQESOSSiAxEWbmMBoGj6GC3t8nQyHYXYUZI8-J4bX6CpPOh6LayLg-s7zlO5A7eeEOVPr4UM1w6cK5gTJdAR-_JbN1Wk2ZfMxMeivJ9T8uRBheGLC-9ruZRZHYx",
+          'Bearer ${dotenv.env['YELP_API']}',
     };
 
     String location = "US";
