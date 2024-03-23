@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
       "Content-Type": "application/json",
       "Accept": "application/json",
       "Authorization":
-          'Bearer  ${dotenv.env['YELP_API']}',
+          'Bearer ${dotenv.env['YELP_API']}',
     };
 
     String location = "CA";

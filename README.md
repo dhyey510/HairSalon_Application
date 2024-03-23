@@ -19,15 +19,20 @@ To run the project, follow these steps:
 1. Clone the repository:
 `git clone https://github.com/dhyey510/HairSalon_Application.git`
 
-2. Replace the placeholder API keys with your Yelp API key and Replicate API key in the `main.dart` file.
+2. Integrate Firebase with this project
 
-3. Run the Flutter project:
+3. Replace the placeholder API keys with your Yelp API key and Replicate API key in the `.env` file.
+
+4. Run the Flutter project:
 `flutter run`
-
 
 ## Screenshots/GIFs
 
-Include screenshots or GIFs showcasing the UI and functionality of your application here.
+![Home Screen](screenshots/HomeScreen.png)
+![Salon Detail Screen](screenshots/SalonDetail.png)
+![Confirmation Screen](screenshots/Confirmation.png)
+![History Screen](screenshots/History.png)
+![Style Screen](screenshots/StyleScreen.png)
 
 ## License
 
