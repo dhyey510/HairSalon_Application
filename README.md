@@ -28,11 +28,11 @@ To run the project, follow these steps:
 
 ## Screenshots/GIFs
 
-![Home Screen](screenshots/HomeScreen.png)
-![Salon Detail Screen](screenshots/SalonDetail.png)
-![Confirmation Screen](screenshots/Confirmation.png)
-![History Screen](screenshots/History.png)
-![Style Screen](screenshots/StyleScreen.png)
+<img src="screenshots/HomeScreen.png" alt="Description of image" width="600" height="600">
+<img src="screenshots/SalonDetail.png" alt="Description of image" width="600" height="600">
+<img src="screenshots/Confirmation.png" alt="Description of image" width="600" height="600">
+<img src="screenshots/History.png" alt="Description of image" width="600" height="600">
+<img src="screenshots/StyleScreen.png" alt="Description of image" width="600" height="600">
 
 ## License
 
