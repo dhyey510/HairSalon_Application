@@ -28,10 +28,10 @@ To run the project, follow these steps:
 
 ## Screenshots/GIFs
 
-<img src="screenshots/HomeScreen.png" alt="Description of image" width="300">
-<img src="screenshots/SalonDetail.png" alt="Description of image" width="300">
-<img src="screenshots/Confirmation.png" alt="Description of image" width="300">
-<img src="screenshots/History.png" alt="Description of image" width="300">
+<img src="screenshots/HomeScreen.png" alt="Description of image" width="300">   <img src="screenshots/SalonDetail.png" alt="Description of image" width="300">
+
+<img src="screenshots/Confirmation.png" alt="Description of image" width="300"> <img src="screenshots/History.png" alt="Description of image" width="300">
+
 <img src="screenshots/StyleScreen.png" alt="Description of image" width="300">
 
 ## License
