@@ -28,5 +28,5 @@ jobs:
     - name: Install Dependencies
       run: flutter pub get
 
-    - name: dart format
-      run: dart format --set-exit-if-changed .
+    - name: Verify formatting
+      run: dart format --output=none --set-exit-if-changed .
