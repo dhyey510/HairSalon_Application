@@ -29,7 +29,7 @@ To run the project, follow these steps:
 
 2. Integrate Firebase with this project
 
-3. Replace the placeholder API keys with your Yelp API key and Replicate API key in the `.env` file.
+3. Create an `.env` file with Yelp API and Replicate API and placed this file inside `lib` folder.
 
 4. Run the Flutter project:
 `flutter run`
